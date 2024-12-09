@@ -65,7 +65,7 @@
 	 }
 	  
     }
-    %>
+    1%>
     
     <!-- REDIRECCIÓN POR JavaScript EN EL CLIENTE  -->
     <script>document.location = "pideNumeroSocio.jsp"</script> 
