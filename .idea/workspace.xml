@@ -9,15 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="739e422a-ce2f-4c56-a118-8ca65f865cf4" name="Changes" comment="Ajuste al dinamismo jquery y ListarSociosServlet">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/jsp_servlet_jdbc/servlet/BorrarSociosServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/jsp_servlet_jdbc/servlet/EditarSociosServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/formularioEditarSocio.jsp" afterDir="false" />
+    <list default="true" id="739e422a-ce2f-4c56-a118-8ca65f865cf4" name="Changes" comment="EditarSociosServlet y BorrarSociosServlet añadidos&#10;database.properties modificado con mis credenciales">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cheatsheet" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/jsp_servlet_jdbc/dao/SocioDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/jsp_servlet_jdbc/dao/SocioDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/borraSocio.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/borraSocio.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listadoSociosB.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listadoSociosB.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-j-8.2.0.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +239,11 @@
       <workItem from="1733473432341" duration="3003000" />
       <workItem from="1733483220673" duration="3263000" />
       <workItem from="1733690985176" duration="4274000" />
-      <workItem from="1733750062419" duration="10713000" />
+      <workItem from="1733750062419" duration="10994000" />
+      <workItem from="1733820698074" duration="459000" />
+      <workItem from="1733915968741" duration="8452000" />
+      <workItem from="1733940098054" duration="34000" />
+      <workItem from="1734078695373" duration="1399000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial">
       <option name="closed" value="true" />
@@ -381,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701260803519</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="EditarSociosServlet y BorrarSociosServlet añadidos&#10;database.properties modificado con mis credenciales">
+      <option name="closed" value="true" />
+      <created>1733764458867</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733764458867</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +413,8 @@
     <MESSAGE value="Más estilos bootstrap" />
     <MESSAGE value="Más dinamismos jquery" />
     <MESSAGE value="Ajuste al dinamismo jquery y ListarSociosServlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste al dinamismo jquery y ListarSociosServlet" />
+    <MESSAGE value="EditarSociosServlet y BorrarSociosServlet añadidos&#10;database.properties modificado con mis credenciales" />
+    <option name="LAST_COMMIT_MESSAGE" value="EditarSociosServlet y BorrarSociosServlet añadidos&#10;database.properties modificado con mis credenciales" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

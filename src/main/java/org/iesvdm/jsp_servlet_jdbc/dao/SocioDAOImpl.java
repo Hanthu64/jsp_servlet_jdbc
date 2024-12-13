@@ -180,3 +180,21 @@ public class SocioDAOImpl extends AbstractDAOImpl implements SocioDAO {
 
     }
 }
+/*Joins
+Para recoger los datos de ambos tomando de referencia la tabla a
+SELECT * FROM a LEFT JOIN b WHERE aID = ?;
+Para recoger los datos de ambos tomando de referencia la tabla b
+UNION
+Esto va a fusionar ambas tablas
+SELECT * FROM a RIGHT JOIN b WHERE aID = ?;
+Para combinar ambas tablas
+SELECT * FROM a CROSS JOIN b WHERE aID = ?;
+
+COSAS A TENER EN CUENTA:
+Tenemos a Manolo y Alberto en tabla personas,
+tenemos a Manolo con un préstamo y una fecha de devolución, pero a Alberto no
+personas es a y prestamos es b:
+LEFT JOIN: va a mostrar Alberto con valores NULL en la tabla de devolución
+RIGHT JOIN: no va a mostrar a Alberto
+UNION: igual que LEFT JOIN
+CROSS JOIN: va a mostrar todas las filas de todas las tablas.*/
